@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/foodgrain"
+    tools:context=".Home">
+
+
+    <TextView
+        android:id="@+id/homepage"
+        android:layout_width="217dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:text="Home Page"
+        android:textColor="#488caf"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/foodgrain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.485" />
+
+    <Button
+        android:id="@+id/foodgrain"
+        android:layout_width="222dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/button_edit"
+        android:gravity="center"
+        android:text="Food Grain"
+        android:textColor="#488caf"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/alert"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/homepage" />
+
+    <Button
+        android:id="@+id/alert"
+        android:layout_width="222dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_edit"
+        android:gravity="center"
+        android:text="Alert"
+        android:textColor="#488caf"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/diagnosis"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/foodgrain" />
+
+    <Button
+        android:id="@+id/diagnosis"
+        android:layout_width="222dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_edit"
+        android:gravity="center"
+        android:text="Diagnosis"
+        android:textColor="#488caf"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/security"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/alert" />
+
+
+    <Button
+        android:id="@+id/security"
+        android:layout_width="222dp"
+        android:layout_height="57dp"
+        android:background="@drawable/button_edit"
+        android:gravity="center"
+        android:text="Security"
+        android:textColor="#488caf"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/diagnosis" />
+
+    <ImageButton
+        android:id="@+id/profile"
+        android:layout_width="53dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/profile_round" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SMART Storage</string>
+    <string-array name="Grain">
+        <item>Choose Grain</item>
+        <item>Wheat</item>
+        <item>Rice</item>
+        <item>Corn</item>
+        <item>Lentil</item>
+    </string-array>
+</resources>
