@@ -21,7 +21,8 @@
         <activity android:name="PreferencesActivity"
             />
         <activity
-            android:name=".MonitoringScreen" />
+            android:name=".MonitoringScreen"
+            android:exported="true"/>
         <activity
             android:name=".Sensors"
             />

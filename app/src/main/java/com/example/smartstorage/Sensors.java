@@ -1,6 +1,7 @@
 package com.example.smartstorage;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.content.Context;
@@ -34,7 +35,7 @@ import java.util.Set;
 import java.util.UUID;
 
 
-public class Sensors extends AppCompatActivity {
+public class Sensors extends Activity {
     private Button search;
     private Button connect;
     private ListView listView;
